@@ -7,7 +7,7 @@ type Props = {
 export default function Button({ label }: Props) {
   return (
     <View style={styles.buttonContainer}>
-      <Pressable>
+      <Pressable onPress={() => alert("You pressed a button")}>
         <Text>{label}</Text>
       </Pressable>
     </View>
