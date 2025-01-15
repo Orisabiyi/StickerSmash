@@ -25,7 +25,9 @@ export default function Button({ label, theme }: Props) {
             color="#25292e"
             style={styles.buttonIcon}
           />
-          <Text style={styles.buttonLabel}>{label}</Text>
+          <Text style={[styles.buttonLabel, { color: "#25292e" }]}>
+            {label}
+          </Text>
         </Pressable>
       </View>
     );
