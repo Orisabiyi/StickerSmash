@@ -1,5 +1,4 @@
 import { StyleSheet, View } from "react-native";
-import { Image } from "expo-image";
 import ImageViewer from "@/components/ImageViewer";
 import Button from "@/components/Button";
 
