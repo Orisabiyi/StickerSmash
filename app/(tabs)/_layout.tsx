@@ -1,7 +1,7 @@
 import React from "react";
 import { Tabs } from "expo-router";
 import Ionicons from "@expo/vector-icons/Ionicons";
-import { StatusBar, StyleSheet } from "react-native";
+import { StatusBar } from "react-native";
 
 export default function TabLayout() {
   return (
