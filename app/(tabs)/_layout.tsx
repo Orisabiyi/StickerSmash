@@ -22,6 +22,7 @@ export default function TabLayout() {
         name="index"
         options={{
           title: "Home",
+          headerTitleAlign: "center",
           tabBarIcon: function ({ color, focused }) {
             return (
               <Ionicons
@@ -37,6 +38,7 @@ export default function TabLayout() {
         name="about"
         options={{
           title: "About",
+          headerTitleAlign: "center",
           tabBarIcon: function ({ color, focused }) {
             return (
               <Ionicons
