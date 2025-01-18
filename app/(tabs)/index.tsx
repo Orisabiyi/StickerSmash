@@ -45,7 +45,10 @@ export default function Index() {
             label="Choose a photo"
             onPress={pickImageAsync}
           />
-          <Button label="Use this photo" />
+          <Button
+            label="Use this photo"
+            onPress={() => setShowAppOptions(true)}
+          />
         </View>
       )}
     </View>
